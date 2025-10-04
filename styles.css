@@ -63,7 +63,7 @@ body{
 
 .container .product-container .product h3{
     padding: 5rem 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
 }
 .container .product-container .product .btn{
@@ -102,7 +102,10 @@ body{
     position: relative;
     margin:2rem;
     width: 40rem;
-    overflow-y: auto; 
+    max-height: 900px;   /* Ajusta el alto máximo del modal */
+    overflow-y: auto;    /* Activa el scroll vertical si se sobrepasa el alto */
+    padding: 30px;
+    border-radius: 1.5rem;
 
 }
 .products-preview .preview.active {
@@ -155,14 +158,15 @@ display: inline-block
     display: flex;
     gap: 1.5rem;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .products-preview .preview .buttons a {
-    flex: 1 1 16rem;
-    padding: 1rem;
+     flex: 1 1 2rem; 
+     padding: 1rem; 
     font-size: 1.8rem;
     color: #444;
     border: 1rem solid #444;
+    border-radius: 20px;
 }
 
 .products-preview .preview .buttons a.cart{
