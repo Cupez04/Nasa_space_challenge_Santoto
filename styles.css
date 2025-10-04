@@ -102,7 +102,7 @@ body{
     position: relative;
     margin:2rem;
     width: 70rem;
-    max-height: 950px;   /* Ajusta el alto máximo del modal */
+    max-height: 800px;   /* Ajusta el alto máximo del modal */
     overflow-y: auto;    /* Activa el scroll vertical si se sobrepasa el alto */
     padding: 30px;
     border-radius: 1.5rem;
