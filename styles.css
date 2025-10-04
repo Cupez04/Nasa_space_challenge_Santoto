@@ -101,8 +101,8 @@ body{
     background-color: #fff;
     position: relative;
     margin:2rem;
-    width: 40rem;
-    max-height: 900px;   /* Ajusta el alto máximo del modal */
+    width: 70rem;
+    max-height: 950px;   /* Ajusta el alto máximo del modal */
     overflow-y: auto;    /* Activa el scroll vertical si se sobrepasa el alto */
     padding: 30px;
     border-radius: 1.5rem;
